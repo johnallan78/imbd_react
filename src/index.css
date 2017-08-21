@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+button {
+  height:50px;
+  background: transparent;
+  border: none ;
+  font-size: 2em;
+  font-weight: bolder;
+  color:moccasin;
+}
+
+.info-box{
+  display: flex;
+  justify-content: center;
+
+  background-color: dodgerblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
