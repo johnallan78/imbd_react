@@ -1,6 +1,7 @@
 import React from 'react';
-import MovieList from './MovieList.jsx'
+// import MovieList from './MovieList.jsx'
 import InfoBox from './InfoBox.jsx'
+import Movie from './Movie.jsx'
 
 
 class MovieBox extends React.Component {
@@ -16,7 +17,9 @@ render(){
   return(
     <div className="movie-box">
     <h2>UK Opening This Week</h2>
-    <MovieList data={this.state.data} />
+    
+    <Movie data={this.state.data} />
+    
     <div className="see-more">
     <h3>See more happening this week>></h3>
     </div>
